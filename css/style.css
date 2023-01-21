@@ -1,0 +1,210 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+span{
+    display: block;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.ff-r{
+    font-family: 'Roboto', sans-serif !important;
+}
+.ff-s{
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+.fw-900{
+    font-weight: 900;
+}
+.text-main{
+    color: #ff305b !important;
+}
+.bg-main{
+    background-color: #ff305b !important;
+}
+.fs-70{
+    font-size: 70px;
+}
+@media (max-width:768px) {
+    .fs-70{
+        font-size: 38px;
+    }
+}
+header{
+    background-image: url("../image/slider-01.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.layer{
+    background-color: rgb(0 0 0 /.8);
+}
+.nav-link{
+    font-size: 1rem;
+}
+.nav-link.active,.nav-link:hover{
+    color: #ff305b !important;
+}
+/* ========= start about ==========*/
+.box-image{
+    background-color: rgb(0 0 0 /.8);
+}
+.fit-content{
+    width: fit-content;
+}
+.about .image .item .box-image{
+    height: 0;
+    transition: .3s 0s all linear;
+}
+.about .image .item .box-image i:hover {
+    color: #ff305b !important;
+}
+.about .image .item:hover .box-image{
+    height: 100%;
+}
+.about h3{
+    font-size: 34px;
+    line-height: 22px;
+    position: relative;
+}
+.about h3::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 5px;
+    background-color: #ff305b;
+    height: 100%;
+}
+.about p{
+    font-size: 16px;
+    line-height: 25px;
+    color: #555555;
+}
+.about span{
+    font-size: 16px;
+    line-height: 16px;
+}
+/* ========= end about ==========*/
+/* ========= start portfolio ==========*/
+.bg-sec{
+    background-color: #f1f1f1;
+}
+.text-box h2{
+    font-size: 40px;
+}
+.text-box .line span{
+    width: 200px;
+    height: 1px;
+    background-color: #ff305b;
+    margin: 3px auto;
+}
+.text-box .line :first-child{
+    width: 100px;
+}
+.text-box .line :last-child{
+    width: 100px;
+}
+.services .box:hover{
+    background-color: white;
+}
+/* ========= end sevices ==========*/
+/* ========= end sevices ==========*/
+.portfolio .image-items{
+    background-color: rgb(0 0 0 /.6);
+    opacity: 0;
+    transition: .3s 0s all linear;
+}
+.portfolio .image:hover .image-items{
+    opacity: 1;
+}
+.portfolio .nav-link{
+    font-size: 16px;
+}
+.portfolio .nav-pills .nav-link.active, .portfolio .nav-pills .show>.nav-link{
+    background-color: unset;
+}
+/* ========= end portfolio ==========*/
+/* ========= start test ==========*/
+.box-slide{
+    width: 700px;
+    margin: 0 auto;
+    background-image: linear-gradient(135deg , #ff305b 15%,transparent 15%);
+}
+@media (max-width:768px) {
+    .box-slide{
+        width: 100%;
+    }
+}
+.wh-100{
+    width: 100px;
+    height: 100px;
+}
+.box-slide p{
+    color: #555555;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ff305b;
+    border-radius: 50%;
+}
+.carousel-indicators .active{
+    background-color: #ff305b;
+}
+/* ========= end test ==========*/
+/* ========= start blog ==========*/
+.blog h6{
+    font-size: 16px;
+    color: #555555;
+}
+.blog h5{
+    font-size: 22px;
+}
+.blog p{
+    font-size: 16px;
+}
+.blog a{
+    font-size: 14px;
+}
+.blog h5:hover,.blog a:hover,.blog a:hover + i{
+    color: #ff305b !important;
+}
+/* ========= end blog ==========*/
+/* ========= start contact ==========*/
+.h-150{
+    height: 150px;
+}
+.contact .form-control:focus{
+    border-color: #ff305b;
+    box-shadow: none;
+}
+/* ========= end contact ==========*/
+/* ========= start footer ==========*/
+footer .links a:hover{
+    color: #ff305b !important;
+}
+footer p{
+    font-size: 16px;
+}
+/* ========= end footer ==========*/
